@@ -1,0 +1,72 @@
+
+.home-page {
+    
+    .first-layer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .cut-cloud {
+            width: 343px;
+            height: 107px;
+            margin: 0 2rem;
+        }
+
+        .tc-logo {
+            width: 302px;
+            height: 231px;
+            margin: 2rem;
+        }
+
+        .heart-cloud {
+            width: 373px;
+            height: 255.79px;
+            margin: 3rem;
+        }
+    }
+
+    .second-layer {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+        .tc-text {
+            width: 690px;
+            height: 120px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .home-page {
+        
+        .first-layer {
+
+            .cut-cloud {
+                width: 80px;
+                height: 30px;
+                margin: 0 0.5rem;
+            }
+
+            .tc-logo {
+                width: 110px;
+                height: 90px;
+                margin: 0.5rem;
+            }
+
+            .heart-cloud {
+                width: 110px;
+                height: 90px;
+                margin: 0.5rem;
+            }
+        }
+
+        .second-layer {
+    
+            .tc-text {
+                transform: scale(0.3);
+            }
+        }
+    }
+}

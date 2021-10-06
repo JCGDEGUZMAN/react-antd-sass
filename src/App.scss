@@ -1,0 +1,13 @@
+@import '~antd/dist/antd.css';
+@import './assets/sass/globals.scss';
+
+.main-app {
+  min-height: 100vh;
+  background-color: $skyblue;
+  min-width: 100vw;
+
+  .main-header {
+    background-color: $white;
+    padding: 0;
+  }
+}
